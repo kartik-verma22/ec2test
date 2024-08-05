@@ -2,7 +2,8 @@ const http = require("http");
 
 const myServer = http.createServer((req,res) =>{
     console.log("New Request Recived!!");
-    res.end("NOW WE ARE ON EC2 ");
+    console.log("hello")
+    res.end("NOW WE ARE ON EC2 .... ");
     
 });
 
